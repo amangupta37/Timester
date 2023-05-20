@@ -5,3 +5,12 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: "lato";
+    src: url(./assets/font/Lato/Lato-Regular.ttf);
+}
+
+body {
+    font-family: "lato";
+}
