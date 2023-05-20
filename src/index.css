@@ -11,6 +11,10 @@
     src: url(./assets/font/Lato/Lato-Regular.ttf);
 }
 
+html {
+    font-size: 62.5%; /* for 1rem = 10px = 62.5% */
+}
+
 body {
     font-family: "lato";
 }
