@@ -1,0 +1,15 @@
+.Button {
+    width: 100px;
+    height: 30px;
+    background-color: #ffc915;
+    border: none;
+    outline: none;
+    color: #000;
+    transition: 1s;
+    user-select: none;
+}
+.Button:hover {
+    cursor: pointer;
+    background-color: #000;
+    color: #ffc915;
+}
