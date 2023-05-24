@@ -1,0 +1,55 @@
+.Navbar {
+    width: 100%;
+    padding: 10px 100px;
+    background-color: #ffffffff;
+
+    border-bottom: 2px solid #edf7ff;
+    position: sticky;
+    top: 0;
+}
+
+.Navbar__Container {
+    display: flex;
+    align-items: center;
+}
+
+.Navbar__Left {
+    width: 80%;
+}
+
+.Navbar__Center {
+    width: 100%;
+    height: 35px;
+}
+.Navbar__Center .SearchBar {
+    width: 100%;
+}
+
+.Navbar__Right {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Navbar__MenuList {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    column-gap: 3rem;
+}
+
+.Navbar__MenuList__Item {
+    display: grid;
+    place-content: center;
+}
+
+.Navbar__MenuList__Item :hover {
+    cursor: pointer;
+}
+
+.Navbar__LoginButton {
+    width: 120px;
+    height: 35px;
+    font-size: 1.6rem;
+    border-radius: 0.5rem;
+}
