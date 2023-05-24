@@ -1,0 +1,28 @@
+.SearchBar {
+    width: 300px;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    padding: 0 2.2rem;
+    border-radius: 30px;
+    /* background-color: red; */
+}
+.SearchBar__Icon {
+    display: grid;
+    place-content: center;
+}
+.SearchBar__Input {
+    width: 100%;
+    padding: 1rem 0.5rem;
+    font-size: 1.6rem;
+    transition: 1s;
+}
+
+.SearchBar__CloseIcon {
+    font-size: 22px;
+    color: #d5d5d5;
+}
+.SearchBar__CloseIcon:hover {
+    cursor: pointer;
+    color: #8a8a8a;
+}
