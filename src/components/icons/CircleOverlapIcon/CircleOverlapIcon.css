@@ -1,0 +1,21 @@
+.CircleOverlap {
+    width: 20%;
+    display: flex;
+    position: relative;
+}
+
+.CircleOverlap__CirclePrimary {
+    width: 30px;
+    height: 30px;
+    background-color: #ffc915;
+    border-radius: 50%;
+}
+
+.CircleOverlap__CircleSecondary {
+    width: 30px;
+    height: 30px;
+    background-color: #282828;
+    border-radius: 50%;
+    position: absolute;
+    left: 20%;
+}
