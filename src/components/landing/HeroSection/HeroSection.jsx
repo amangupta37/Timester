@@ -54,9 +54,9 @@ const HeroSection = () => {
                 </div>
             </div>
             <div className="HeroSection__Right">
-                <div className="HeroSection__Right__SmartWatch">
+                <figure className="HeroSection__Right__SmartWatch">
                     <img src={SmartWatch} alt="smart-watch" />
-                </div>
+                </figure>
             </div>
         </section>
     );
