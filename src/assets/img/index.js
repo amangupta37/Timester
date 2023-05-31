@@ -1,3 +1,4 @@
-import SmartWatch from "./SmartWatch/SmartWatch.png";
-import watch from "./watch/watch.png";
-export { SmartWatch, watch };
+import BlackWatch from "./BlackWatch/black_watch.png";
+import SmartWatch from "./SmartWatch/smart_watch.png";
+import Watch from "./Watch/watch.png";
+export { BlackWatch, SmartWatch, Watch };
