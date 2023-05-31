@@ -7,9 +7,9 @@ const BrandCard = (props) => {
     return (
         <Card className="BrandCard" onClick={onClick}>
             {image && (
-                <div className="BrandCard__Image">
+                <figure className="BrandCard__Image">
                     <img src={image} alt={title} />
-                </div>
+                </figure>
             )}
             <div className="BrandCard__Brand">
                 <Typography className="BrandCard__Text">{title}</Typography>
