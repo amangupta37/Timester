@@ -1,0 +1,13 @@
+.Product__Aside {
+    width: 30%;
+    min-height: 100vh;
+    background-color: #ffff;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.6);
+    padding: 50px 20px;
+}
+
+.Product__Section {
+    width: 100%;
+    height: 100%;
+    background-color: #f6f6f6;
+}
