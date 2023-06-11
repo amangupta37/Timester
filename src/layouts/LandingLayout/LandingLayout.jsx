@@ -1,17 +1,16 @@
-import { Footer, Header, HeroSection } from "../../components/layout";
-import { Navbar } from "../../components";
+import { Footer, Header, HeroSection, Navbar } from "../../components";
 import "./LandingLayout.css";
 
 const LandingLayout = ({ children }) => {
     return (
-        <div className="LandingLayout">
+        <section className="LandingLayout">
             <Header>
                 <Navbar />
             </Header>
             <HeroSection />
-            <section>{children}</section>
+            <section className="LandingLayout__Sections">{children}</section>
             <Footer />
-        </div>
+        </section>
     );
 };
 
