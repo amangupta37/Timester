@@ -2,7 +2,7 @@ export const PathName = {
     LANDING: "/",
     LOGIN: "/login",
     SIGNUP: "/signup",
-    PRODUCT: "/product",
+    PRODUCT: "/products",
     CART: "/cart",
     PRODUCT_LISTING: "/product-listing",
     WISHLIST: "/wishlist",
