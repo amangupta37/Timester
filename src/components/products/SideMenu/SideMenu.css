@@ -1,0 +1,23 @@
+.SideMenu {
+}
+
+.SideMenu__Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.SideMenu__Title {
+    font-size: 2rem;
+    color: #767676;
+}
+
+.SideMenu__Button {
+    border-radius: 0.4rem;
+    font-size: 1.4rem;
+}
+
+.SideMenu__Body {
+    background-color: red;
+    margin: 50px 0;
+}

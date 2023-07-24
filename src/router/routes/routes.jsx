@@ -1,5 +1,6 @@
 import React from "react";
 import { PathName } from "../PathName";
+import WithAuth from "../../hoc/withAuth/withAuth";
 
 const Cart = React.lazy(() => import("../../pages/Cart/Cart"));
 const GenericComponents = React.lazy(() =>
@@ -17,6 +18,9 @@ const PageNotFound = React.lazy(() =>
     import("../../pages/PageNotFound/PageNotFound")
 );
 
+const AuthenticatedHomePage = WithAuth(Landing);
+const AuthenticatedLoginPage = WithAuth(Login);
+
 const routes = [
     {
         path: PathName.CART,
@@ -32,13 +36,13 @@ const routes = [
     },
     {
         path: PathName.LANDING,
-        component: <Landing />,
+        component: <AuthenticatedHomePage />,
         exact: true,
         key: "landing",
     },
     {
         path: PathName.LOGIN,
-        component: <Login />,
+        component: <AuthenticatedLoginPage />,
         exact: true,
         key: "login",
     },

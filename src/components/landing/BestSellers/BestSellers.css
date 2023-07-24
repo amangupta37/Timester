@@ -1,0 +1,18 @@
+.BestSellers__Title {
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    color: #1a2024;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+.BestSellers__Title span {
+    font-weight: 500;
+}
+
+.BestSellers__Listing {
+    margin: 50px 0 0 0;
+    display: flex;
+    column-gap: 4rem;
+    justify-content: space-between;
+}
